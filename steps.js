@@ -68,6 +68,7 @@ const checklistData = [
             { "label": "Browse thalissa store", "points": "15pts", "note": "KJØPE SILK FFS" },
             { "label": "Kjøp staff of air" },
             { "label": "Gå GE -> spirit tree til wherever og tilbake igjen", "points": "25pts" },
+            { "label": "Kjøp Sigil of litheness eller daft strikes", "points": "-250pts" },
             { "label": "Løp til Edgeville, kjøpe team cape -> Så til fairy ring" },
             { "label": "Fairy Ring: ALS", "points": "25pts" },
             { "label": "Fairy Ring: AIR", "points": "25pts" },
@@ -97,6 +98,8 @@ const checklistData = [
         "image": "wildyPathing.png",
         "items": [
             { "label": "Tele Varrock" },
+            { "label": "Kjøp Daft strikes", "points": "-100pts" },
+            { "label": "Kjøp Meticulous mage", "points": "-350pts" },
             { "label": "Husk runes + team cape" },
             { "label": "Ikke la dragon bones gå i looting bag" }
         ]

@@ -223,8 +223,10 @@
 
         function parsePoints(pointsStr) {
             if (!pointsStr) return 0;
-            const match = pointsStr.match(/[+-]?(\d+)/);
-            return match ? parseInt(match[1]) : 0;
+            const match = pointsStr.match(/(-?\+?)(\d+)/);
+            if (!match) return 0;
+            const num = parseInt(match[2]);
+            return match[1] === '-' ? -num : num;
         }
 
         function updatePointsCounter() {
@@ -265,7 +267,7 @@
                         checkbox.checked = localStorage.getItem(id) === 'true';
 
                         const points = parsePoints(item.points);
-                        if (points > 0) itemPoints[id] = points;
+                        if (points !== 0) itemPoints[id] = points;
 
                         checkbox.addEventListener('change', () => {
                             localStorage.setItem(id, checkbox.checked);
