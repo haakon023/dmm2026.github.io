@@ -4,16 +4,13 @@ const checklistData = [
         "items": [
             { "label": "Logg inn" },
             { "label": "Hans – check age", "points": "15 pts" },
-            { "label": "Pickpocket woman/man x3 for lvl 5 thieving", "note": "Prøv å få bones, kan få tak i senere i varrock", "points": "15pts" },
-            { "label": "Hent anti-dragon shield" },
-            { "label": "Sjekk at du har dramenstaff eventuelt claim" },
+
         ]
     },
     {
         "title": "Mage setup",
         "items": [
             { "label": "Velg mage item" },
-            { "label": "Defensive cast" },
             { "label": "Cast alt du kan mens du løper" }
         ]
     },
@@ -22,6 +19,7 @@ const checklistData = [
         "items": [
             { "label": "Løp til HAM hideout og gå inn", "points": "15 pts" },
             { "label": "Draynor Sewer – drep en zombie", "points": "15pts" },
+            { "label": "Pickpocket i huset nord i draynor woman/man x3 for lvl 5 thieving", "note": "Prøv å få bones, kan få tak i senere i varrock", "points": "15pts" },
             { "label": "Draynor Agility Course – grind til minst 1 Mark of Grace", "points": "25pts" },
             { "label": "Tele Lumbridge" }
         ]
@@ -39,6 +37,7 @@ const checklistData = [
         "title": "Varrock & Thieving",
         "items": [
             { "label": "Enter champions guild", "points": "25 pts" },
+            { "label": "Starte dragon slayer 1" },
             { "label": "Drep for bones (hvis du ikke har fått enda)" },
             { "label": "Give dog a bone", "points": "15pts", "note": "HVIS DU FINN DOGGO" },
             { "label": "Aubury kjøp water runes + mind runes" },
@@ -57,26 +56,30 @@ const checklistData = [
         "title": "Planks",
         "items": [
             { "label": "Chop dying tree i Lumberyard", "points": "15 pts", "note": "DETTE KAN SKIPPES HVIS DÅRLIG TID ELLER GJØRES SENERE" },
-            { "label": "Sawmill – gjør logs til planks (trenger 100 gp)", "points": "15pts" }
+            { "label": "Sawmill – gjør logs til planks (trenger 100 gp)", "points": "15pts" },
+            { "label": "Tele Varrock" },
         ]
     },
     {
         "title": "Fairy Ring & Mage Tower",
         "items": [
-            { "label": "Tele Varrock" },
+            { "label": "Varrock sentrum",},
             { "label": "Kjøp news paper", "points": "15pts" },
-            { "label": "Browse thalissa store", "points": "15pts", "note": "KJØPE SILK FFS" },
+            { "label": "Browse thalissa store", "points": "15pts" },
+            { "label": "KJØP SILK THALISSA STORE" },
             { "label": "Kjøp staff of air" },
             { "label": "Gå GE -> spirit tree til wherever og tilbake igjen", "points": "25pts" },
-            { "label": "Kjøp Sigil of litheness eller daft strikes", "points": "-250pts" },
-            { "label": "Løp til Edgeville, kjøpe team cape -> Så til fairy ring" },
+            { "label": "Kjøp Sigil of litheness", "points": "-250pts" },
+            { "label": "Løp til Edgeville, kjøpe team cape" },
+            { "label": "Snakke med oziarch for dragon slayer 1step" },
+            { "label": "Snakke med emblem trader for easy diary" },
+            { "label": "Løp til fairy ring" },
             { "label": "Fairy Ring: ALS", "points": "25pts" },
             { "label": "Fairy Ring: AIR", "points": "25pts" },
             { "label": "Fairy Ring: CIR", "points": "25pts" },
             { "label": "Fairy Ring: DIS", "points": "25pts" },
-            { "label": "Mage Tower" },
+            { "label": "Mage Tower, enten sjekk lesser demon for combat task, eller gå i basement for rune essence mine" },
             { "label": "Teleport til Rune Essence Mine", "points": "15pts" },
-            { "label": "Sjekk om Lesser Demon er alive -> kill, if not next step", "points": "10pts" },
             { "label": "Tilbake til Fairy Ring" },
             { "label": "Fairy Ring: BIS", "points": "15pts" },
             { "label": "Fairy Ring: BLR" }
@@ -97,7 +100,8 @@ const checklistData = [
         "title": "Prep for Lava Dragons",
         "image": "wildyPathing.png",
         "items": [
-            { "label": "Tele Varrock" },
+            { "label": "Tele Varrock med chronicle" },
+            { "label": "Enter champions guild og prate med guildmaster spørre om: how to protect against the dragon's breath" },
             { "label": "Kjøp Daft strikes", "points": "-100pts" },
             { "label": "Kjøp Meticulous mage", "points": "-350pts" },
             { "label": "Husk runes + team cape" },
