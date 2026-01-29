@@ -4,9 +4,7 @@ const checklistData = [
         "items": [
             { "label": "Logg inn" },
             { "label": "Hans – check age", "points": "15 pts" },
-            { "label": "Prøv å pickpocket en man/woman"},
-
-
+            { "label": "Prøv å pickpocket en man/woman" },
         ]
     },
     {
@@ -21,10 +19,12 @@ const checklistData = [
         "items": [
             { "label": "Løp til HAM hideout og gå inn", "points": "15 pts" },
             { "label": "Draynor Sewer - drep en zombie", "points": "15pts" },
-            { "label": "Pickpocket i huset nord i draynor woman/man x6 for 16gp", "note": "Prøv å få bones, kan få tak i senere i varrock"},
+            { "label": "Pickpocket i huset nord i draynor woman/man x7 for 19gp", "note": "Prøv å få bones, kan få tak i senere i varrock" },
             { "label": "Draynor Agility Course - grind til minst 1 Mark of Grace", "points": "25pts" },
             { "label": "Tele Lumbridge" },
-            { "label": "bobs axes kjøp bronze axe"}
+            { "label": "Kjøp jug fra general store" },
+            { "label": "Fyll jug med vann i huset atme bobs axes" },
+            { "label": "Bobs axes kjøp bronze axe" }
         ]
     },
     {
@@ -49,13 +49,6 @@ const checklistData = [
         ]
     },
     {
-        "title": "Museum / Kudos",
-        "items": [
-            { "label": "Gå til Varrock Museum" },
-            { "label": "Nå 50 Kudos", "points": "15pts" }
-        ]
-    },
-    {
         "title": "Planks",
         "items": [
             { "label": "Chop dying tree i Lumberyard", "points": "15 pts", "note": "DETTE KAN SKIPPES HVIS DÅRLIG TID ELLER GJØRES SENERE" },
@@ -66,7 +59,7 @@ const checklistData = [
     {
         "title": "Fairy Ring & Mage Tower",
         "items": [
-            { "label": "Varrock sentrum",},
+            { "label": "Varrock sentrum", },
             { "label": "Kjøp news paper", "points": "15pts" },
             { "label": "Browse thalissa store", "points": "15pts" },
             { "label": "KJØP SILK THALISSA STORE" },
@@ -75,7 +68,7 @@ const checklistData = [
             { "label": "Kjøp Sigil of litheness", "points": "-250pts" },
             { "label": "Løp til Edgeville, kjøpe team cape" },
             { "label": "Snakke med oziarch for dragon slayer 1step" },
-            { "label": "Snakke med emblem trader for easy diary" },
+            { "label": "Snakke med emblem trader for easy diary", "points": "15pts" },
             { "label": "Løp til fairy ring" },
             { "label": "Fairy Ring: ALS", "points": "25pts" },
             { "label": "Fairy Ring: AIR", "points": "25pts" },
@@ -85,7 +78,16 @@ const checklistData = [
             { "label": "Teleport til Rune Essence Mine", "points": "15pts" },
             { "label": "Tilbake til Fairy Ring" },
             { "label": "Fairy Ring: BIS", "points": "15pts" },
+            { "label": "Fairy Ring: DJP", },
+            { "label": "Løp til ardy monastry", },
+        ]
+    },
+    {
+        "title": "Monks friend",
+        "items": [
+            { "label": "Søk opp monks friend i quest helper", "points": "160pts"},
             { "label": "Fairy Ring: BLR" }
+
         ]
     },
     {
