@@ -19,7 +19,7 @@ const checklistData = [
         "items": [
             { "label": "Løp til HAM hideout og gå inn", "points": "15 pts" },
             { "label": "Draynor Sewer - drep en zombie", "points": "15pts" },
-            { "label": "Pickpocket i huset nord i draynor woman/man x7 for 19gp", "note": "Prøv å få bones, kan få tak i senere i varrock" },
+            { "label": "Pickpocket i huset nord i draynor woman/man x3 for 19gp", "note": "Prøv å få bones, kan få tak i senere i varrock" },
             { "label": "Draynor Agility Course - grind til minst 1 Mark of Grace", "points": "25pts" },
             { "label": "Tele Lumbridge" },
             { "label": "Kjøp jug fra general store" },
@@ -43,7 +43,7 @@ const checklistData = [
             { "label": "Starte dragon slayer 1" },
             { "label": "Drep for bones (hvis du ikke har fått enda)" },
             { "label": "Give dog a bone", "points": "15pts", "note": "HVIS DU FINN DOGGO" },
-            { "label": "Aubury kjøp water runes + mind runes" },
+            { "label": "Aubury kjøp water runes(500) + mind runes(500) + minst 3 fire runes" },
             { "label": "Aubury teleport til Rune Essence Mine", "points": "15pts" },
             { "label": "Steal tea fra varrock east", "points": "15pts" }
         ]
@@ -105,10 +105,11 @@ const checklistData = [
         "title": "Prep for Lava Dragons",
         "image": "wildyPathing.png",
         "items": [
-            { "label": "Tele Varrock med chronicle" },
+            { "label": "Tele Varrock med varrock teleport hvis du har 25 mage/hvis ikke med chronicle" },
             { "label": "Enter champions guild og prate med guildmaster spørre om: how to protect against the dragon's breath" },
             { "label": "Kjøp Daft strikes", "points": "-100pts" },
             { "label": "Kjøp Meticulous mage", "points": "-350pts" },
+            { "label": "Kjøp consistency", "points": "-100pts" },
             { "label": "Husk runes + team cape" },
             { "label": "Ikke la dragon bones gå i looting bag" }
         ]
