@@ -4,6 +4,8 @@ const checklistData = [
         "items": [
             { "label": "Logg inn" },
             { "label": "Hans – check age", "points": "15 pts" },
+            { "label": "Prøv å pickpocket en man/woman"},
+
 
         ]
     },
@@ -18,18 +20,19 @@ const checklistData = [
         "title": "Lumbridge & området",
         "items": [
             { "label": "Løp til HAM hideout og gå inn", "points": "15 pts" },
-            { "label": "Draynor Sewer – drep en zombie", "points": "15pts" },
-            { "label": "Pickpocket i huset nord i draynor woman/man x3 for lvl 5 thieving", "note": "Prøv å få bones, kan få tak i senere i varrock", "points": "15pts" },
-            { "label": "Draynor Agility Course – grind til minst 1 Mark of Grace", "points": "25pts" },
-            { "label": "Tele Lumbridge" }
+            { "label": "Draynor Sewer - drep en zombie", "points": "15pts" },
+            { "label": "Pickpocket i huset nord i draynor woman/man x6 for 16gp", "note": "Prøv å få bones, kan få tak i senere i varrock"},
+            { "label": "Draynor Agility Course - grind til minst 1 Mark of Grace", "points": "25pts" },
+            { "label": "Tele Lumbridge" },
+            { "label": "bobs axes kjøp bronze axe"}
         ]
     },
     {
         "title": "Stronghold",
         "items": [
             { "label": "Nigel" },
-            { "label": "Stronghold of Security – complete" },
-            { "label": "Gjør alle emotesa fra stronghold", "points": "15 pts" },
+            { "label": "Stronghold of Security - complete", "points": "15pts" },
+            { "label": "Gjør alle emotesa fra stronghold", "points": "25pts" },
             { "label": "Tele Varrock med Chronicle" }
         ]
     },
