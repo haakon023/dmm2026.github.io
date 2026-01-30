@@ -48,6 +48,14 @@ const checklistData = [
             { "label": "Steal tea fra varrock east", "points": "15pts" }
         ]
     },
+        {
+        "title": "Planks",
+        "items": [
+            { "label": "Chop dying tree i Lumberyard", "points": "15 pts", "note": "DETTE KAN SKIPPES HVIS DÅRLIG TID ELLER GJØRES SENERE" },
+            { "label": "Sawmill – gjør logs til planks (trenger 100 gp)", "points": "15pts" },
+            { "label": "Tele Varrock" },
+        ]
+    },
     {
         "title": "Planks",
         "items": [
@@ -125,6 +133,16 @@ const checklistData = [
 
         ]
     },
+        {
+        "title": "Mage arena",
+        "items": [
+            { "label": "Treng litt cash minst 100k for staff + runes" },
+            { "label": "minst 110 bloods" },
+            { "label": "minst 250 fires" },
+            { "label": "minst 250 airs" },
+            { "label": "Kjøp noen nature runes mens du e her" },
+        ]
+    },
     {
         "title": "Finishing up",
         "items": [
@@ -136,6 +154,7 @@ const checklistData = [
             { "label": "Varrock agility course", "points": "15pts" },
             { "label": "Fence skip sør for varrock", "points": "15pts" },
             { "label": "Scurrius", "points": "25pts" },
+
 
         ]
     }
